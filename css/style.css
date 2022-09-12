@@ -97,29 +97,32 @@ header .bottom .info button {
 /* main */
 
 main {
-  background-color: #F6F6F6;
+  background-color: #FFFFFF;
 }
 
+
 /* altezza da togliere */
-main .top {
+main section {
   height: 800px;
   display: flex;
   justify-content: space-evenly;
   padding-top: 155px;
 }
 
-main .top figure {
+
+
+main figure {
   width: 620px;
   height: 420px;
   background-color: #282841;
   color: white;
 }
 
-main .top article {
+main article {
   width: 370px;
   height: 508;
 }
 
-main .top article h3 {
+main article h3 {
   font-size: 2.4rem;
 }
