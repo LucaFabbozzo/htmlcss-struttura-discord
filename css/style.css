@@ -15,8 +15,80 @@
 
 /* general */
 
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .container {
   width: 80%;
   max-width: 1200px;
-  margin: 20px auto;
+  margin: 0 auto;
+}
+
+/* header top */
+
+header {
+  background-color: #3161E0;
+  height: 625px;
+  padding-top: 20px;
+  color: white;
+}
+
+header .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+}
+
+header .top .menu ul {
+  display: flex;
+}
+
+header .top .menu ul li {
+  padding: 0 20px;
+  list-style: none;
+}
+
+header .top .menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header .top .menu ul li a:hover {
+  text-decoration: underline;
+}
+
+header .top .login button {
+  border: none;
+  width: 60px;
+  height: 50px;
+  color: black;
+}
+
+
+/* header bottom */
+
+header .bottom {
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+header .bottom .info h1 {
+  font-size: 2.6rem;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+
+header .bottom .info p {
+  padding-bottom: 20px;
+}
+
+
+header .bottom .info button {
+  border: none;
+  width: 120px;
+  height: 50px;
+  color: black;
 }
