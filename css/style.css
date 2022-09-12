@@ -92,3 +92,10 @@ header .bottom .info button {
   height: 50px;
   color: black;
 }
+
+
+/* main */
+
+main {
+  background-color: #F6F6F6;
+}
