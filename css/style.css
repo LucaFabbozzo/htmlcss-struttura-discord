@@ -5,3 +5,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* utility */
+
+.debug {
+  border: 1px solid red;
+  background-color: rgba(122, 170, 154, 0.792);
+}
+
+/* general */
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
