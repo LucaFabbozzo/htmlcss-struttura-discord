@@ -159,3 +159,57 @@ width: 120px;
 height: 50px;
 color: black;
 }
+
+
+/* footer */
+
+footer {
+  height: 650px;
+  background-color: #62676be6;
+  color: white;
+}
+
+
+footer .top {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+footer nav ul {
+  list-style: none;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+footer .boxes {
+  display: flex;
+  justify-content: space-around;
+  width: 840px;
+}
+
+footer .box {
+  height: 300px;
+  background-color: aliceblue;
+  color: black;
+}
+
+footer .bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+footer button {
+  border: none;
+  width: 120px;
+  height: 50px;
+  color: black;
+}
