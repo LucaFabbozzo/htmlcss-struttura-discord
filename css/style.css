@@ -97,7 +97,6 @@ header .bottom .info button {
 /* main */
 
 
-/* altezza da togliere */
 main section {
   height: 800px;
   display: flex;
@@ -105,6 +104,11 @@ main section {
   padding-top: 155px;
 }
 
+main section .gray {
+  background-color: #F6F6F6;
+}
+
+/* toglere altezza */
 main figure {
   width: 620px;
   height: 420px;
@@ -112,6 +116,7 @@ main figure {
   color: white;
 }
 
+/* togliere altezza */
 main article {
   width: 370px;
   height: 508;
@@ -125,7 +130,7 @@ main article h3 {
 
 main .jumbotron {
   height: 1400px;
-  background-color: #34BEB5;
+  background-color: #89adaa;
   padding-top: 180px;
   text-align: center;
 }
@@ -141,6 +146,7 @@ padding-bottom: 50px;
 } 
 
 
+/* togliere altezza */
 main .jumbotron .image-jumbo {
   width: 80%;
   height: 620px;
@@ -176,9 +182,25 @@ footer .top {
   padding-top: 100px;
 }
 
+/* togliere altezza */
 footer .left {
-  width: 255px;
-  background-color: #34BEB5;
+  width: 245px;
+  height: 200px;
+  background-color: #207993;
+}
+
+footer .left h2 {
+  padding-bottom: 10px;
+}
+
+footer .left .icons {
+  padding-top: 10px;
+  display: flex;
+}
+
+footer .left .icons span {
+  margin-right: 10px;
+  font-size: 0.8rem;
 }
 
 footer nav ul {
@@ -198,8 +220,10 @@ footer .boxes {
   display: flex;
   justify-content: space-around;
   width: 840px;
+  padding-bottom: 50px;
 }
 
+/* togliere altezza */
 footer .box {
   height: 300px;
   background-color: aliceblue;
