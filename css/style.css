@@ -16,77 +16,83 @@
 /* general */
 
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* header top */
+/* header */
 
-header {
+header {  
   background-color: #3161E0;
-  height: 625px;
-  padding-top: 20px;
+  height: 80px;
   color: white;
 }
 
-header .top {
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 75px;
+  padding-top: 15px;
 }
 
-header .top .menu ul {
+
+header .menu ul {
   display: flex;
 }
 
-header .top .menu ul li {
+header .menu ul li {
   padding: 0 20px;
   list-style: none;
 }
 
-header .top .menu ul li a {
+header .menu ul li a {
   text-decoration: none;
   color: white;
 }
 
-header .top .menu ul li a:hover {
+header .menu ul li a:hover {
   text-decoration: underline;
 }
 
-header .top .login button {
-  border: none;
+header .button {
   width: 60px;
   height: 50px;
   color: black;
+  background-color: #207993;
 }
 
+/* jumbotron */
 
-/* header bottom */
-
-header .bottom {
-  width: 50%;
-  margin: 100px auto;
+.jumbotron {
+  background-color: #3161E0;
+  height: 550px;
+  
   text-align: center;
 }
 
-header .bottom .info h1 {
+.jumbotron .content {
+   max-width: 800px;
+   padding-top: 120px;
+   margin: 0 auto;
+}
+
+.jumbotron .content h1 {
   font-size: 2.6rem;
   font-weight: bolder;
   padding-bottom: 20px;
 }
 
-header .bottom .info p {
+.jumbotron .content p {
   padding-bottom: 20px;
 }
 
 
-header .bottom .info button {
+.jumbotron .content button {
   border: none;
   width: 120px;
   height: 50px;
@@ -96,20 +102,20 @@ header .bottom .info button {
 
 /* main */
 
-
-main section {
-  height: 800px;
+main section .container {
   display: flex;
   justify-content: space-evenly;
   padding-top: 155px;
+  min-height: 500px;
 }
 
-main section .gray {
-  background-color: #F6F6F6;
+
+.bg-grey {
+  background-color: #c0bdbd;
 }
 
 /* toglere altezza */
-main figure {
+main .image {
   width: 620px;
   height: 420px;
   background-color: #282841;
@@ -117,54 +123,50 @@ main figure {
 }
 
 /* togliere altezza */
-main article {
+main .text {
   width: 370px;
   height: 508;
 }
 
-main article h3 {
+main .text h3 {
   font-size: 2.4rem;
 }
 
-/* jumbotron */
 
-main .jumbotron {
-  height: 1400px;
-  background-color: #89adaa;
-  padding-top: 180px;
-  text-align: center;
-}
-
-main .jumbotron h2 {
+.box-text h2 {
   font-size: 2.6rem;
   padding-bottom: 50px;
 }
 
 
-main .jumbotron p {
+.box-text p {
 padding-bottom: 50px;
 } 
 
+section.section-bottom .container {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 
-/* togliere altezza */
-main .jumbotron .image-jumbo {
+ .image-jumbo {
   width: 80%;
   height: 620px;
   background-color: #282841;
   margin: 0 auto;
 }
 
-main .jumbotron h4 {
+.cta h4 {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-main .jumbotron button {
+.cta button {
 border: none;
 width: 120px;
 height: 50px;
 color: black;
-}
+} 
 
 
 /* footer */
@@ -176,29 +178,35 @@ footer {
 }
 
 
-footer .top {
+footer .footer-top.container {
   display: flex;
   justify-content: space-around;
   padding-top: 100px;
+  padding-bottom: 40px;
 }
 
 /* togliere altezza */
-footer .left {
+footer .col-social {
   width: 245px;
-  height: 200px;
   background-color: #207993;
 }
 
-footer .left h2 {
+footer .col-menu {
+  width: 100px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+footer .col-social h2 {
   padding-bottom: 10px;
 }
 
-footer .left .icons {
+footer .col-social .icons {
   padding-top: 10px;
   display: flex;
 }
 
-footer .left .icons span {
+footer .col-social .icons span {
   margin-right: 10px;
   font-size: 0.8rem;
 }
@@ -216,24 +224,12 @@ footer nav ul li a:hover {
 }
 
 
-footer .boxes {
-  display: flex;
-  justify-content: space-around;
-  width: 840px;
-  padding-bottom: 50px;
-}
 
-/* togliere altezza */
-footer .box {
-  height: 300px;
-  background-color: aliceblue;
-  color: black;
-}
-
-footer .bottom {
+footer .footer-bottom.container {
   display: flex;
   justify-content: space-between;
   padding-top: 40px;
+  border-top: 2px solid white;
 }
 
 footer button {
